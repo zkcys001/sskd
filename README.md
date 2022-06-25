@@ -50,31 +50,31 @@ It contains 447,233 labeled images of 40,061 subjects captured by 82 cameras. Th
 
 | Domain |  \#subjects | \#images | \#cameras | collection place |
 | ----- | :------: | :---------: | :----: | :------: |
-| CUHK03|  1,090 | 14,096 | 2 | campus |  
-| SAIVT | 152   | 7,150  | 8 | buildings |
-| AirportALERT | 9,651 | 30,243 | 6 | airport |
-|iLIDS|  300   | 4,515  | 2 | airport |
-|PKU  |  114   | 1,824  | 2 | campus |
-|PRAI |   1,580 | 39,481| 2 | aerial imagery |
-|SenseReID | 1,718 | 3,338  | 2 | unknown |
-|SYSU | 510  | 30,071 | 4 | campus |
-|Thermalworld | 409   | 8,103  | 1 | unknown |
-|3DPeS  | 193  | 1,012  | 1 | outdoor  |
-|CAVIARa | 72  | 1,220  | 1 | shopping mall |
-|VIPeR | 632   | 1,264  | 2 | unknown |
-|Shinpuhkan| 24 | 4,501  | 8 | unknown |
-|WildTrack | 313 | 33,979 | 7| outdoor |
-|cuhk-sysu | 11,934| 34,574 | 1| street |
-|LPW |  2,731 | 30,678 | 4 | street |
-|GRID |  1,025 | 1,275 | 8 | underground |
-|Market1501 | 1,501  | 32,217 | 6 | campus |
-|DukeMTMC | 1,812 | 36,441 | 8 | campus |
-|MSMT17 | 4,101 | 126,441| 15| campus |
-|PartialREID | 60 | 600| 6|campus |
-|PartialiLIDS | 119  | 238 | 2 | airport |
-|OccludedREID | 200  | 2,000| 5| campus |
-|CrowdREID | 845  | 3,257 | 11 | railway station| 
-|Total   | 8,638 + 31,423  | 201,184 + 246,049| 49 +57 | - |
+|PartialiLIDS | 119     | 238    | 2  | airport         |
+|PartialREID  | 60      | 600    | 6  | campus          |
+|OccludedREID | 200     | 2,000  | 5  | campus          |
+|3DPeS        | 193     | 1,012  | 1  | outdoor         |
+|CAVIARa      | 72      | 1,220  | 1  | shopping mall   |
+|VIPeR        | 632     | 1,264  | 2  | unknown         |
+|GRID         | 1,025   | 1,275  | 8  | underground     |
+|PKU          | 114     | 1,824  | 2  | campus          |
+|CrowdREID    | 845     | 3,257  | 11 | railway station | 
+|SenseReID    | 1,718   | 3,338  | 2  | unknown         |
+|Shinpuhkan   | 24      | 4,501  | 8  | unknown         |
+|iLIDS        | 300     | 4,515  | 2  | airport         |
+|SAIVT        | 152     | 7,150  | 8  | buildings       |
+|Thermalworld | 409     | 8,103  | 1  | unknown         |
+|CUHK03       | 1,090   | 14,096 | 2  | campus          |  
+|SYSU         | 510     | 30,071 | 4  | campus          |
+|AirportALERT | 9,651   | 30,243 | 6  | airport         |
+|LPW          | 2,731   | 30,678 | 4  | street          |
+|Market1501   | 1,501   | 32,217 | 6  | campus          |
+|WildTrack    | 313     | 33,979 | 7  | outdoor         |
+|cuhk-sysu    | 11,934  | 34,574 | 1  | street          |
+|DukeMTMC     | 1,812   | 36,441 | 8  | campus          |
+|PRAI         | 1,580   | 39,481 | 2  | aerial imagery  |
+|MSMT17       | 4,101   | 126,441| 15 | campus          |
+|Total        | 8,638 + 31,423  | 201,184 + 246,049| 49 +57 | - |
 ## Training & Evaluation
 
 The whole training process is divided into two stages:
